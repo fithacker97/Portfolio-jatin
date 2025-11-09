@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'Backend Developer',
         'Tech Enthusiast',
         'Python Developer',
-        'Database Engineer'
+        
     ];
 
     // Typewriter Effect
