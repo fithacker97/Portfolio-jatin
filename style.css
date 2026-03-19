@@ -1,28 +1,28 @@
 :root {
-    /* Light backgrounds (using your palette) */
-    --bg-primary: #F6F6F6;
-    --bg-secondary: #CFFFE2;
-    --bg-tertiary: #A2D5C6;
+    /* Dark backgrounds (greenish tone) */
+    --bg-primary: #000000;
+    --bg-secondary: #021a26;
+    --bg-tertiary: #0F6292;
 
-    /* Dark text for light background */
-    --text-primary: #000000;
-    --text-secondary: rgba(0, 0, 0, 0.75);
-    --text-muted: rgba(0, 0, 0, 0.55);
+    /* Light text for dark background */
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.8);
+    --text-muted: rgba(255, 255, 255, 0.6);
 
-    /* Accents (mapped nicely) */
-    --accent-primary: #A2D5C6;
-    --accent-secondary: #CFFFE2;
-    --accent-tertiary: #000000;
-    --accent-light: #F6F6F6;
+    /* Accents (your palette) */
+    --accent-primary: #16FF00;   /* neon green */
+    --accent-secondary: #FFED00; /* yellow */
+    --accent-tertiary: #0F6292;  /* blue */
+    --accent-light: #ffffff;
 
-    --accent-gradient: linear-gradient(135deg, #A2D5C6 0%, #CFFFE2 70%, #F6F6F6 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #CFFFE2 0%, #A2D5C6 70%, #F6F6F6 100%);
+    --accent-gradient: linear-gradient(135deg, #0F6292 0%, #16FF00 60%, #FFED00 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #16FF00 0%, #0F6292 60%, #FFED00 100%);
 
-    /* Borders / shadows for light UI */
-    --border-accent: rgba(0, 0, 0, 0.1);
-    --shadow-glow: 0 0 40px rgba(162, 213, 198, 0.4);
-    --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.08);
-    --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.12);
+    /* Borders / shadows for dark neon UI */
+    --border-accent: rgba(22, 255, 0, 0.25);
+    --shadow-glow: 0 0 60px rgba(22, 255, 0, 0.35);
+    --shadow-card: 0 12px 28px rgba(0, 0, 0, 0.8);
+    --shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.9);
 
     --border-radius: 16px;
     --border-radius-pill: 50px;
@@ -30,9 +30,9 @@
     --transition-fast: all 0.2s ease;
     --transition-spring: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    /* Light "glass" surfaces */
-    --glass-bg: rgba(255, 255, 255, 0.6);
-    --glass-border: rgba(162, 213, 198, 0.4);
+    /* Glass effect (neon green tint) */
+    --glass-bg: rgba(22, 255, 0, 0.08);
+    --glass-border: rgba(22, 255, 0, 0.3);
 }
 
 * {
