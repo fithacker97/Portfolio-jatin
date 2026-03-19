@@ -1,29 +1,28 @@
-/* CSS Variables */
 :root {
-    /* Dark backgrounds */
-    --bg-primary: #090040;
-    --bg-secondary: #13004f;
-    --bg-tertiary: #1b0061;
+    /* Light backgrounds (using your palette) */
+    --bg-primary: #F6F6F6;
+    --bg-secondary: #CFFFE2;
+    --bg-tertiary: #A2D5C6;
 
-    /* Light text for dark background */
-    --text-primary: #f7f3ff;
-    --text-secondary: rgba(247, 243, 255, 0.82);
-    --text-muted: rgba(247, 243, 255, 0.6);
+    /* Dark text for light background */
+    --text-primary: #000000;
+    --text-secondary: rgba(0, 0, 0, 0.75);
+    --text-muted: rgba(0, 0, 0, 0.55);
 
-    /* Accents (using your colors) */
-    --accent-primary: #B13BFF;
-    --accent-secondary: #FFCC00;
-    --accent-tertiary: #471396;
-    --accent-light: #f7f3ff;
+    /* Accents (mapped nicely) */
+    --accent-primary: #A2D5C6;
+    --accent-secondary: #CFFFE2;
+    --accent-tertiary: #000000;
+    --accent-light: #F6F6F6;
 
-    --accent-gradient: linear-gradient(135deg, #471396 0%, #B13BFF 70%, #FFCC00 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #B13BFF 0%, #471396 70%, #FFCC00 100%);
+    --accent-gradient: linear-gradient(135deg, #A2D5C6 0%, #CFFFE2 70%, #F6F6F6 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #CFFFE2 0%, #A2D5C6 70%, #F6F6F6 100%);
 
-    /* Borders / shadows tuned for dark UI */
-    --border-accent: rgba(177, 59, 255, 0.18);
-    --shadow-glow: 0 0 60px rgba(177, 59, 255, 0.2);
-    --shadow-card: 0 12px 28px rgba(5, 0, 28, 0.65);
-    --shadow-hover: 0 20px 50px rgba(5, 0, 28, 0.75);
+    /* Borders / shadows for light UI */
+    --border-accent: rgba(0, 0, 0, 0.1);
+    --shadow-glow: 0 0 40px rgba(162, 213, 198, 0.4);
+    --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.12);
 
     --border-radius: 16px;
     --border-radius-pill: 50px;
@@ -31,9 +30,9 @@
     --transition-fast: all 0.2s ease;
     --transition-spring: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    /* Subtle "glass" surfaces for dark background */
-    --glass-bg: rgba(177, 59, 255, 0.08);
-    --glass-border: rgba(177, 59, 255, 0.2);
+    /* Light "glass" surfaces */
+    --glass-bg: rgba(255, 255, 255, 0.6);
+    --glass-border: rgba(162, 213, 198, 0.4);
 }
 
 * {
