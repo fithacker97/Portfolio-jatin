@@ -1,38 +1,61 @@
 :root {
-    /* Dark backgrounds (greenish tone) */
-    --bg-primary: #000000;
-    --bg-secondary: #021a26;
-    --bg-tertiary: #0F6292;
+    /* =========================
+       DARK MODERN GREEN THEME
+       ========================= */
 
-    /* Light text for dark background */
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.8);
-    --text-muted: rgba(255, 255, 255, 0.6);
+    /* Backgrounds */
+    --bg-primary: #050807;       /* deep black-green */
+    --bg-secondary: #091413;     /* your dark forest */
+    --bg-tertiary: #12201D;      /* elevated cards */
 
-    /* Accents (your palette) */
-    --accent-primary: #16FF00;   /* neon green */
-    --accent-secondary: #FFED00; /* yellow */
-    --accent-tertiary: #0F6292;  /* blue */
-    --accent-light: #ffffff;
+    /* Text */
+    --text-primary: #F5FFF9;
+    --text-secondary: rgba(245, 255, 249, 0.82);
+    --text-muted: rgba(245, 255, 249, 0.58);
 
-    --accent-gradient: linear-gradient(135deg, #0F6292 0%, #16FF00 60%, #FFED00 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #16FF00 0%, #0F6292 60%, #FFED00 100%);
+    /* Main Palette */
+    --accent-primary: #408A71;   /* rich emerald */
+    --accent-secondary: #B0E4CC; /* soft mint */
+    --accent-tertiary: #285A48;  /* deep green */
+    --accent-light: #E8FFF4;
 
-    /* Borders / shadows for dark neon UI */
-    --border-accent: rgba(22, 255, 0, 0.25);
-    --shadow-glow: 0 0 60px rgba(22, 255, 0, 0.35);
-    --shadow-card: 0 12px 28px rgba(0, 0, 0, 0.8);
-    --shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.9);
+    /* Gradients */
+    --accent-gradient: linear-gradient(
+        135deg,
+        #091413 0%,
+        #285A48 35%,
+        #408A71 70%,
+        #B0E4CC 100%
+    );
 
-    --border-radius: 16px;
-    --border-radius-pill: 50px;
+    --accent-gradient-hover: linear-gradient(
+        135deg,
+        #12201D 0%,
+        #408A71 45%,
+        #B0E4CC 100%
+    );
+
+    /* Borders */
+    --border-accent: rgba(176, 228, 204, 0.18);
+    --border-strong: rgba(176, 228, 204, 0.35);
+
+    /* Shadows */
+    --shadow-glow: 0 0 45px rgba(64, 138, 113, 0.28);
+    --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.55);
+    --shadow-hover: 0 18px 50px rgba(0, 0, 0, 0.75);
+
+    /* Glassmorphism */
+    --glass-bg: rgba(176, 228, 204, 0.06);
+    --glass-border: rgba(176, 228, 204, 0.14);
+
+    /* UI */
+    --border-radius: 18px;
+    --border-radius-pill: 999px;
+
+    /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     --transition-fast: all 0.2s ease;
     --transition-spring: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-    /* Glass effect (neon green tint) */
-    --glass-bg: rgba(22, 255, 0, 0.08);
-    --glass-border: rgba(22, 255, 0, 0.3);
 }
 
 * {
